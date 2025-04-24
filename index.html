@@ -31,9 +31,10 @@
         ></a-plane> -->
         <a-gltf-model
           src="#avatarModel"
-          position="1 1 1"
+          position="0 0 0.2"
           scale="1 1 1"
-          rotation="90 0 0"
+          rotation="-90 0 0"
+          animation="property: rotation; to: -90 360 0; loop: true; dur: 8000; easing: linear"
         ></a-gltf-model>
       </a-entity>
     </a-scene>
